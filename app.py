@@ -61,7 +61,7 @@ fig_sy.add_annotation(
     xref="paper", yref="paper",
     x=-0.4, y=-0.25,  # Positionierung der Fußnote unterhalb der Grafik
     showarrow=False,
-    font=dict(size=12, color="gray")
+    font=dict(size=12)#, color="gray")
 )
 st.plotly_chart(fig_sy)
 st.write("Die geringe Anzahl geförderter Unternehmen in dieser wichtigen Branche wirft Fragen auf und hindert die Vergleichbarkeit. Es liefert aber trotzdem ein erstes Indiz, welches weitere Untersuchungen bekräftigt.")
@@ -109,7 +109,7 @@ fig_td.add_annotation(
     xref="paper", yref="paper",
     x=-0.85, y=-0.25,  # Positionierung der Fußnote unterhalb der Grafik
     showarrow=False,
-    font=dict(size=12, color="gray")
+    font=dict(size=12)# color="gray")
 )
 st.plotly_chart(fig_td)
 st.write("Angesichts der Bedeutung der Kulturbranche und der zahlreichen betroffenen Künstler und deren Vereine ist es wichtige, diese nicht im Stich zu lassen. Es ist jedoch Fakt, dass jene Unternehmen in Kunst und Kultur, mit politischer Nähe am meisten von diesen Förderungen profitiert haben.")
@@ -193,7 +193,7 @@ fig.add_annotation(
     xref="paper", yref="paper",
     x=-0.1, y=-0.17,  # Positioning the footnote below the figure
     showarrow=False,
-    font=dict(size=12, color="gray"),
+    font=dict(size=12),#, color="gray"),
     align="center"  # Align the text to the center
 )
 
