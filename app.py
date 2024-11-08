@@ -12,7 +12,7 @@ def human_format(num):
     return '{}{}'.format('{:f}'.format(num).rstrip('0').rstrip('.'), ['', 'k', 'M', 'B', 'T'][magnitude])
 
 st.set_page_config(page_title='Corona Förderungen', initial_sidebar_state='collapsed')
-st.write("*Dieser Text ist eine Rohversion und ist nicht als journalistisches Produkt zu verstehen. Es handelt sich hierbei um eine Übung im Rahmen des Kurses.*")
+st.write("*Dieser Text ist eine Rohversion und ist nicht als journalistisches Produkt zu verstehen. Es handelt sich hierbei um eine Übung im Rahmen eines Kurses.*")
 # TODO: Muss ggf. als Frage umformuliert werden, falls sich die These nicht bestätigt
 st.title('Vitamin B im Corona-Förderdschungel')
 
